@@ -637,66 +637,6 @@ class CompetitiveDualBranchFusion(nn.Module):
 # ============================================================
 
 class CSEBlock(nn.Module):
-    """
-    CSE spatial enhancement block used by CSE-SMNet.
-
-    Architecture
-    ------------
-
-                         X
-                         |
-                  ----------------
-                  |              |
-                  v              |
-          Regular branch         |
-                  |              |
-                  v              |
-                 F_r ----------> |
-                  |              |
-                  |       Structural-guided
-                  |       offset/mask predictor
-                  |              |
-                  |              v
-                  |        DeformConv2d
-                  |              |
-                  |              v
-                  |             F_d
-                  |              |
-                  -------  -------
-                         \\/
-                 Geometric residual
-                  R_g = F_d - F_r
-                         |
-                         v
-                  Complementary gate
-                         |
-                         v
-                    F_d_complement
-                         |
-                ---------------------
-                |                   |
-                F_r         F_d_complement
-                |                   |
-                ----------- ---------
-                           |
-                 Competitive spatial-
-                   channel fusion
-                           |
-                           v
-                       F_fused
-                           |
-                           + X
-                           |
-                           v
-                       Output
-
-    Input:
-        (B, C, H, W)
-
-    Output:
-        (B, C, H, W)
-    """
-
     def __init__(
         self,
         channels,
