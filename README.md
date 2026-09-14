@@ -37,7 +37,6 @@ CSE-SMNet/
 │       ├── reproducibility.py
 │       └── visualization.py
 ├── docs/
-│   ├── source_file_mapping.md
 │   ├── training.md
 │   └── evaluation.md
 ├── train.py
