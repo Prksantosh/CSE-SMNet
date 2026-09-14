@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of **CSE-SMNet** for future-frame prediction based video anomaly detection.
 
-> Repository preparation is in progress. The current revision contains the verified CSE-SMNet architecture, Avenue normal-training dataset, prediction losses, modular normal-only training pipeline, and the validated single-video frame-level evaluation pipeline with MTAR diagnostics.
+> Repository preparation is in progress. The current revision contains the verified CSE-SMNet architecture, Avenue normal-training dataset, prediction losses, modular normal-only training pipeline, and the validated single-video frame-level evaluation pipeline with SMTR diagnostics.
 
 ## Repository organization
 
