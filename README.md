@@ -1,2 +1,2 @@
-# CSE-SMNet
-CSE-SMNet: Cross-Guided Spatial Encoding and Structured Memory-Guided Temporal Reasoning for Video Anomaly Detection
+# This is the release version of CSE-SMNet
+CSE-SMNet: Complementary Spatial Encoding with Structured Memory-Guided Temporal Reasoning for Video Anomaly Detection
