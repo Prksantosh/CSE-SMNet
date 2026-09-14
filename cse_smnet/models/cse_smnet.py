@@ -11,10 +11,8 @@ import torch.nn as nn
 from .encoder import EncoderStage
 from .decoder import DecoderStage
 from .temporal.timestamp import TimestampTransform
-#from models.mem_GALSTM_updated import MemE3DLSTM
 from .temporal.mtar import MTAR
-#from models.mem_2d_lstm import MemE3DLSTM
-#from models.mema_e3d_emu import MemE3DLSTM
+
 
 ###############################################
 # Full Autoencoder Model with Skip Connections
