@@ -42,7 +42,7 @@ Each training sample uses three consecutive frames to predict the next frame. Th
 Prediction objective:
 
 ```text
-L_pred = 0.00 L_MSE + 0.50 L_SSIM + 0.30 L_temporal + 0.20 L_gradient
+L_pred = 0.50 L_SSIM + 0.30 L_temporal + 0.20 L_gradient
 ```
 
 MTAR structured-memory regularization:
