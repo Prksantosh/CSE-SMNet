@@ -48,7 +48,6 @@ L_pred = 0.00 L_MSE + 0.50 L_SSIM + 0.30 L_temporal + 0.20 L_gradient
 MTAR structured-memory regularization:
 
 ```text
-lambda_compact  = 0
 lambda_separate = 1e-3
 lambda_diverse  = 2e-3
 lambda_usage    = 2e-4
